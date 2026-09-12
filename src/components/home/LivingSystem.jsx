@@ -279,7 +279,7 @@ export default function LivingSystem() {
 
       <div
         ref={stageRef}
-        className="relative mx-auto mt-6 h-[520px] md:h-[640px] max-w-3xl overflow-hidden touch-none select-none"
+        className="relative mx-auto mt-6 h-[520px] md:h-[640px] max-w-3xl overflow-hidden select-none"
         style={{ perspective: 900 }}
       >
         {/* Interactive light source */}
