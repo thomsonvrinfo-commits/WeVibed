@@ -13,7 +13,7 @@ export default function Contact() {
   const onSubmit = (e) => { e.preventDefault(); setSubmitted(true); };
 
   const contactMethods = [
-    { icon: Mail, label: "Email", value: "hello@wevibed.co.zw", href: "mailto:hello@wevibed.co.zw" },
+    { icon: Mail, label: "Email", value: "wevibeapp@gmail.com", href: "mailto:wevibeapp@gmail.com" },
     { icon: MessageCircle, label: "WhatsApp", value: "0718 268 729", href: "https://wa.me/263718268729" },
     { icon: Phone, label: "Phone", value: "+263 71 826 8729", href: "tel:+263718268729" },
     { icon: MapPin, label: "Location", value: "Harare, Zimbabwe", href: "#" },
@@ -65,10 +65,10 @@ export default function Contact() {
                   <div><label className="block text-sm font-medium text-white mb-1.5">Budget range</label>
                     <select value={form.budget} onChange={update("budget")} className="w-full rounded-xl bg-black/40 border border-white/5 px-4 py-3 text-sm text-white outline-none focus:border-primary/40">
                       <option value="">Select a range</option>
-                      <option value="starter">Starter ($499)</option>
-                      <option value="business">Business ($1,499)</option>
-                      <option value="premium">Premium ($3,999+)</option>
-                      <option value="custom">Custom / Not sure</option>
+<option value="starter">Starter ($5/month)</option>
+<option value="business">Business — Custom</option>
+<option value="custom-project">Custom Project — Request a quote</option>
+<option value="unsure">Not sure</option>
                     </select>
                   </div>
                   <div><label className="block text-sm font-medium text-white mb-1.5">Tell us about your project</label><textarea required value={form.message} onChange={update("message")} rows={5} className="w-full rounded-xl bg-black/40 border border-white/5 px-4 py-3 text-sm text-white placeholder:text-muted-foreground/50 outline-none focus:border-primary/40 resize-none" placeholder="Describe your vision, goals, and timeline..." /></div>

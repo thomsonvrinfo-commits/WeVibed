@@ -273,7 +273,7 @@ export const industries = [
 // ─── Storefront Offer ───
 export const storefrontOffer = {
   name: "Digital Storefront",
-  price: "$3",
+  price: "$5",
   period: "month",
   setup: "No setup fee",
   includes: [
@@ -289,7 +289,7 @@ export const storefrontOffer = {
 export const objections = [
   { q: "I already have Instagram.", a: "Instagram is a feed, not a storefront. Posts disappear, stock isn't organized, and customers can't browse. A storefront gives them somewhere persistent to land." },
   { q: "My customers use WhatsApp.", a: "We don't replace WhatsApp — we connect it. Every product page has a WhatsApp enquiry button. Customers arrive informed, not starting from zero." },
-  { q: "My business is too small.", a: "The $3 storefront is built for small businesses. It gives you the same digital foundation as larger retailers — without the complexity." },
+  { q: "My business is too small.", a: "The $5 storefront is built for small businesses. It gives you the same digital foundation as larger retailers — without the complexity." },
   { q: "I don't need a website.", a: "You need a system, not a website. A storefront that connects to WhatsApp, organizes your products, and gives customers a place to browse — that's a system." },
   { q: "Will people actually use it?", a: "Your customers are already searching for you. Right now they find scattered posts. A storefront gives them a clear path from discovery to enquiry." },
   { q: "Can I update my products?", a: "Yes. The system is built so you can add, update, and manage products without depending on anyone else." },

@@ -8,7 +8,7 @@ const sections = [
   { title: "Data Storage & Security", body: "Your data is stored securely using industry-standard encryption. We use trusted platforms for hosting and email. Access is restricted to authorized team members only." },
   { title: "Cookies", body: "Our website uses essential cookies to function properly and analytics cookies to understand usage. You can control cookies through your browser settings." },
   { title: "Your Rights", body: "You may request access to, correction of, or deletion of your personal data at any time by contacting us. We will respond to all legitimate requests within 30 days." },
-  { title: "Contact Us", body: "If you have questions about this Privacy Policy, contact us at hello@wevibed.co.zw." },
+  { title: "Contact Us", body: "If you have questions about this Privacy Policy, contact us at wevibeapp@gmail.com." },
 ];
 
 export default function Privacy() {

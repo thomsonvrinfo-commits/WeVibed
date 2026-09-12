@@ -9,7 +9,7 @@ const general = [
 
 const storefrontTerms = [
   { title: "What's Included", body: "The Digital Storefront is a hosted, maintained digital storefront for your business — product pages, a mobile-friendly browsing experience, and a WhatsApp enquiry path on every product. WeVibed builds, hosts, and maintains the storefront on your behalf." },
-  { title: "Billing", body: "The Digital Storefront is $3/month with no setup fee. Billing is recurring and monthly from the date your storefront goes live. There is no minimum contract term." },
+  { title: "Billing", body: "The Digital Storefront is $5/month with no setup fee. Billing is recurring and monthly from the date your storefront goes live. There is no minimum contract term." },
   { title: "Cancellation & Refunds", body: "You may cancel at any time; cancellation takes effect at the end of your current billing period, and your storefront is taken offline after that date. Payments already made for the current period are non-refundable, but no further charges apply once cancelled." },
   { title: "Ownership", body: "You own your business name, brand, product information, photos, and content. WeVibed owns and operates the underlying storefront platform and infrastructure. If you cancel, your business content is not \"delivered\" to you as a standalone file — the storefront is a hosted service, not a one-time asset — but we're happy to provide an export of your product/content data on request." },
 ];
@@ -23,7 +23,7 @@ const projectTerms = [
 
 const closing = [
   { title: "Limitation of Liability", body: "WeVibed is not liable for indirect, incidental, or consequential damages. For the Digital Storefront, our total liability is limited to the fees paid in the 3 months prior to a claim. For custom projects, our total liability is limited to the amount paid for the specific project giving rise to the claim." },
-  { title: "Contact", body: "Questions about these terms? Contact us at hello@wevibed.co.zw." },
+  { title: "Contact", body: "Questions about these terms? Contact us at wevibeapp@gmail.com." },
 ];
 
 function TermsGroup({ title, description, items, startDelay = 0 }) {
@@ -72,7 +72,7 @@ export default function Terms() {
           <TermsGroup items={general} startDelay={0.1} />
 
           <TermsGroup
-            title="Digital Storefront ($3/month)"
+            title="Digital Storefront ($5/month)"
             description="Applies if you're subscribed to the standard Digital Storefront."
             items={storefrontTerms}
             startDelay={0.15}
