@@ -225,9 +225,7 @@ export default function LivingSystem() {
     function onPointerMove(e) {
       updateFromXY(e.clientX, e.clientY);
     }
-    function onTouchMove(e) {
-      if (e.touches[0]) updateFromXY(e.touches[0].clientX, e.touches[0].clientY);
-    }
+    
     async function onPointerDown() {
       // iOS 13+ requires an explicit permission prompt, triggered by a user gesture
       if (
@@ -253,7 +251,6 @@ export default function LivingSystem() {
     }
 
     stage.addEventListener("pointermove", onPointerMove);
-    stage.addEventListener("touchmove", onTouchMove, { passive: true });
     stage.addEventListener("pointerleave", reset);
     stage.addEventListener("pointerdown", onPointerDown);
     if (typeof window !== "undefined" && window.DeviceOrientationEvent) {
@@ -261,7 +258,6 @@ export default function LivingSystem() {
     }
     return () => {
       stage.removeEventListener("pointermove", onPointerMove);
-      stage.removeEventListener("touchmove", onTouchMove);
       stage.removeEventListener("pointerleave", reset);
       stage.removeEventListener("pointerdown", onPointerDown);
       window.removeEventListener("deviceorientation", onDeviceOrientation);
