@@ -30,7 +30,7 @@ export default function WhyWeVibed() {
             <div className="text-sm text-muted-foreground mt-1">Connected systems</div>
           </div>
           <div>
-            <div className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">$5</div>
+            <div className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">$3</div>
             <div className="text-sm text-muted-foreground mt-1">Entry point / month</div>
           </div>
         </div>
