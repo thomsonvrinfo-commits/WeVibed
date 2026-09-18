@@ -65,7 +65,7 @@ export default function Contact() {
                   <div><label className="block text-sm font-medium text-white mb-1.5">Budget range</label>
                     <select value={form.budget} onChange={update("budget")} className="w-full rounded-xl bg-black/40 border border-white/5 px-4 py-3 text-sm text-white outline-none focus:border-primary/40">
                       <option value="">Select a range</option>
-<option value="starter">Starter ($5/month)</option>
+<option value="starter">Starter ($3/month)</option>
 <option value="business">Business — Custom</option>
 <option value="custom-project">Custom Project — Request a quote</option>
 <option value="unsure">Not sure</option>
