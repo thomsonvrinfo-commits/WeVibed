@@ -120,7 +120,7 @@ export const caseStudies = [
 export const pricing = [
   {
     name: "Starter",
-    price: "$5",
+    price: "$3",
     period: "month",
     popular: false,
     desc: "For small businesses that need a clear, professional digital storefront.",
