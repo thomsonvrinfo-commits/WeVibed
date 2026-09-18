@@ -133,7 +133,7 @@ export default function Start() {
                       className="w-full rounded-xl bg-background/60 border border-foreground/10 px-4 py-3 text-sm text-foreground outline-none focus:border-primary/40 transition-colors"
                     >
                       <option value="">Select a range</option>
-                      <option value="$5/month storefront">$5/month storefront</option>
+                      <option value="$3/month storefront">$3/month storefront</option>
                       <option value="Custom system">Custom system</option>
                       <option value="Not sure yet">Not sure yet</option>
                     </select>
