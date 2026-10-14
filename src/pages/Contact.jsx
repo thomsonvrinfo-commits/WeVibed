@@ -14,8 +14,8 @@ export default function Contact() {
 
   const contactMethods = [
     { icon: Mail, label: "Email", value: "wevibeapp@gmail.com", href: "mailto:wevibeapp@gmail.com" },
-    { icon: MessageCircle, label: "WhatsApp", value: "0718 268 729", href: "https://wa.me/263718268729" },
-    { icon: Phone, label: "Phone", value: "+263 71 826 8729", href: "tel:+263718268729" },
+    { icon: MessageCircle, label: "WhatsApp", value: "071 566 6424", href: "https://wa.me/263715666424" },
+{ icon: Phone, label: "Phone", value: "+263 71 566 6424", href: "tel:+263715666424" },
     { icon: MapPin, label: "Location", value: "Harare, Zimbabwe", href: "#" },
   ];
 
