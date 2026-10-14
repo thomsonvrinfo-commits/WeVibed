@@ -3,8 +3,8 @@
 // No fabricated outcomes. Describe what was built, not unmeasured gains.
 // ═══════════════════════════════════════════════════════════
 
-export const WHATSAPP_NUMBER = "0718 268 729";
-export const WHATSAPP_LINK = "https://wa.me/263718268729";
+export const WHATSAPP_NUMBER = "071 566 6424";
+export const WHATSAPP_LINK = "https://wa.me/263715666424";
 
 // ─── Real WeVibed Projects ───
 export const projects = [
